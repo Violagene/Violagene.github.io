@@ -12,10 +12,7 @@ body {
 }
 
 section {
-
     padding:5em 0;
-    background-color: #FFE2B8;
-    border: 1px black solid;
 }
 
 
@@ -40,17 +37,24 @@ ul {
     padding: 5em 0 0 5em;
     height: 60vh;
     color: #fff;
-    border: 1px black solid
 }
 
-nav {
-    background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px; 
+#sales {
+    background: #333333;
+    color: #fff;
 }
 
-header {
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
+#sales p {
+    width: 600px;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+* + p {
+    margin-top: 1em;
+}
+
+section#about {
+    width: 30em;
+    margin: auto;
 }
