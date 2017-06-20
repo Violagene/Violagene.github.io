@@ -58,7 +58,12 @@ section#about {
     width: 30em;
     margin: auto;
 }
-
+p.main{
+    text-align: left;
+}
+p.approach{
+    text-align: right;
+}
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;   
