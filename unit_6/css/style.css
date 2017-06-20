@@ -55,12 +55,17 @@ ul {
 }
 
 section#about {
-    width: 30em;
+    width: 70em;
     margin: auto;
 }
 p.main{
     float: left;
-    width: 30%;
+    width: 50em;
+}
+p.approach{
+    float: right;
+    width: 50em;
+
 }
 
 input[type=text], select, textarea {
