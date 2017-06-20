@@ -60,7 +60,7 @@ section#about {
 }
 p.main{
     float: left;
-    width: 50%;
+    width: 30%;
 }
 
 input[type=text], select, textarea {
