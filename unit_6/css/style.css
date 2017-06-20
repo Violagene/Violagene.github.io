@@ -59,11 +59,10 @@ section#about {
     margin: auto;
 }
 p.main{
-    text-align: left;
+    float: left;
+    width: 50%;
 }
-p.approach{
-    text-align: right;
-}
+
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;   
@@ -84,3 +83,4 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
