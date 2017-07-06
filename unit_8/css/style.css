@@ -76,9 +76,15 @@ ul {
 }
 .main{
     float: left;
-    width: 40%;
+    width: 50%;
     margin: 0;
     padding: 0 2em;
+}
+.approach{
+    float: right;
+    width: 50%;
+    margin 0;
+    padding:  0 2em;
 }
 .clearfix:after {
     visibility: hidden;
@@ -130,7 +136,7 @@ input[type=submit]:hover {
         padding:5em 2em;
     }
     .main {
-        margin-top:.5em;
+        margin-top:1em;
         padding:0;
         width:100%;
     }
