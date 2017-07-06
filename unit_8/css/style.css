@@ -54,6 +54,7 @@ ul {
 
 * + p {
     margin-top: 1em;
+
 }
 
 #about {
@@ -75,11 +76,10 @@ ul {
 }
 .main{
     float: left;
-    width: 50%;
+    width: 40%;
     margin: 0;
     padding: 0 2em;
 }
-
 .clearfix:after {
     visibility: hidden;
     display: block;
