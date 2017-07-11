@@ -39,7 +39,7 @@ ul {
 
 }
 
-#intro {background:url(../images/denver_capital.jpg);background-size:cover;background-repeat:no-repeat;font-size: 2em;padding: 2em 0 0 3em;height: 55vh;color: #fff;}
+#intro {background:url(../images/denver_capital.jpg);background-size:cover;background-repeat:no-repeat;font-size: 2em;padding: 2em 0 0 3em;height: 75vh;color: #fff;}
 
 #sales {
     background: #333333;
@@ -58,7 +58,7 @@ ul {
 }
 
 #about {
-    max-width: 80em;
+    max-width: 60em;
     margin: auto;
 }
 #services {
@@ -82,7 +82,7 @@ ul {
 }
 .approach{
     float: right;
-    width: 45%;
+    width: 50%;
     margin 0;
     padding:  0 2em;
 }
@@ -139,5 +139,11 @@ input[type=submit]:hover {
         margin-top:2em;
         padding:0;
         width:100%;
+    }
+}
+@media only screen and (min-width:600px) {
+    #intro {
+        background-color: purple;
+        background-image: none;
     }
 }
