@@ -141,7 +141,7 @@ input[type=submit]:hover {
         width:100%;
     }
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:600px) {
     #intro {
         background-color: purple;
         background-image: none;
